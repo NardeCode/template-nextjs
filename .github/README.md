@@ -53,7 +53,7 @@ Para que o vscode corrija os erros de padronização automaticamente ao salvar
 $ yarn
 
 # Execute a aplicação
-$ yarn next dev
+$ yarn dev
 ```
 
 </br>
