@@ -24,6 +24,7 @@ export default class MyDocument extends Document {
       const initialProps = await Document.getInitialProps(ctx);
       return {
         ...initialProps,
+        /*@ts-ignore*/
         styles: (
           <>
             {initialProps.styles}
@@ -44,6 +45,9 @@ export default class MyDocument extends Document {
 
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+
+          <meta name="description" content="Teste front-end Promobit" />
+          <link rel="icon" href="" />
         </Head>
         <body>
           <Main />
