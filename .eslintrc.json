@@ -5,7 +5,6 @@
     "jest": true
   },
   "extends" : [
-    "next/core-web-vitals",
-    "next/babel"
+    "next/core-web-vitals"
   ]
 }
