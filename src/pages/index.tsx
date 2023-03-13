@@ -1,18 +1,17 @@
-import type { NextPage } from 'next';
+import { Home } from '@/templates';
 import Head from 'next/head';
 
-const Home: NextPage = () => {
+export default function HomePage() {
   return (
     <>
       <Head>
-        <title>Next JS</title>
+        <title>Template Next</title>
+        <meta name="description" content="Template" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
-
       <main>
-        <h1>Template Nextjs</h1>
+        <Home />
       </main>
     </>
   );
 }
-
-export default Home;
