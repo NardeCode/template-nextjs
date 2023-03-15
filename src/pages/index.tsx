@@ -1,14 +1,10 @@
 import { Home } from '@/templates';
-import Head from 'next/head';
+import { Seo } from '@/components';
 
 export default function HomePage() {
   return (
     <>
-      <Head>
-        <title>Template Next</title>
-        <meta name="description" content="Template" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
-      </Head>
+      <Seo />
       <main>
         <Home />
       </main>
