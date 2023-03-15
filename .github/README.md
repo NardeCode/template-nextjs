@@ -10,10 +10,14 @@
 </div>
 
 # <strong>Tecnologias</strong>
+
 - **React**
-- **Nextjs**
+- **Next js**
 - **TypeScript**
 - **Styled Components**
+- **Chakra UI**
+- **Jest**
+- **Axios**
 - **ESLint**
 - **Prettier**
 - **EditorConfig**
@@ -21,11 +25,14 @@
 </br>
 
 # <strong>Extensões Editor</strong>
+
 Para que funcione a padronização do código
+
 - **ESLint**
 - **EditorConfig for VS Code**
 
 Recomendadas
+
 - **vscode-styled-components**
 - **Color Highlight**
 - **Material Icon Theme**
@@ -33,11 +40,10 @@ Recomendadas
 </br>
 
 # <strong>Configuração vscode</strong>
+
 Para que o vscode corrija os erros de padronização automaticamente ao salvar
 
-1- Clique ctrl + shift + p
-2- Pesquise settings
-3- E em settings.json cole este código abaixo
+1- Clique ctrl + shift + p 2- Pesquise settings 3- E em settings.json cole este código abaixo
 
 ```
   "editor.codeActionsOnSave": {
@@ -48,6 +54,7 @@ Para que o vscode corrija os erros de padronização automaticamente ao salvar
 </br>
 
 # <strong>Instalação</strong>
+
 ```bash
 # Instale as dependências
 $ yarn
