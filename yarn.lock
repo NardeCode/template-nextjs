@@ -1270,6 +1270,11 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@fontsource/basic@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/basic/-/basic-4.5.9.tgz#69145f9ab98603407b0fcc9a3c7e9c5ed88ca209"
+  integrity sha512-ReYDzFt9V/zaqMsNBW+TwzCJLhcXXLyMOQOxvroD4xZ6hlf8m3AhnKYR3Stn52M0itlLNx6oD0OdsNqjynZUDg==
+
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.8.tgz#03595ac2075a4dc0f191cc2131de14fbd7d410b9"
