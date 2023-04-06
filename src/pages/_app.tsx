@@ -3,6 +3,8 @@ import type { AppProps } from 'next/app';
 import { CacheProvider } from '@chakra-ui/next-js';
 import { ChakraProvider } from '@chakra-ui/react';
 
+import '@fontsource/basic';
+
 import GlobalStyle from '../styles/global';
 import theme from '../styles/theme';
 

@@ -8,7 +8,6 @@ export default createGlobalStyle`
   }
   :root {
     font-size: 62.5%; /* 1rem = 10px */
-    font-family: 'Roboto', sans-serif !important;
   }
   a {
     text-decoration: none;
